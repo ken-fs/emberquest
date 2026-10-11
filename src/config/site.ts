@@ -64,10 +64,10 @@ export interface SiteConfig {
 export const site: SiteConfig = {
   name: 'EmberQuest Wiki',
   shortName: 'EmberQuest',
-  description: 'EmberQuest guides: working codes, beginner tips and progression guides, checked after every game update.',
+  description: 'EmberQuest guides for every skill and class: fishing, mining, chopping, crafting, money making and PvP tips for the browser and Steam cozy MMO.',
   domain: 'emberquest.wiki',
-  tagline: 'Codes, guides and tips, checked after every update.',
-  legalNotice: 'Fan-made resource. Not affiliated with the developer of EmberQuest.',
+  tagline: 'From fishing rod to world boss.',
+  legalNotice: 'Fan-made resource. Not affiliated with Faded Scroll Games LLC.',
   // Set a real address if you run no social channels — the contact page
   // renders it as a mailto link.
   contactEmail: '',
@@ -81,13 +81,14 @@ export const site: SiteConfig = {
   game: {
     name: 'EmberQuest',
     platform: 'Steam',
-    developer: 'Example Studio',
-    genre: 'Simulator',
+    developer: 'Faded Scroll Games LLC',
+    genre: 'Cozy MMO',
+    releaseDate: '2026-10-15',
   },
   // og:image dims of the SHIPPED hero.webp — if you replace public/images/hero.webp,
   // update these to match (wrong dims mis-crop share cards).
-  ogImageWidth: 1200,
-  ogImageHeight: 630,
+  ogImageWidth: 1920,
+  ogImageHeight: 1080,
 };
 
 /** Absolute site URL (no trailing slash). Falls back to the Astro `site` config. */

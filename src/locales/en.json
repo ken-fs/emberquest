@@ -3,9 +3,9 @@
   "site": {
     "name": "EmberQuest Wiki",
     "shortName": "EmberQuest",
-    "description": "EmberQuest guides: working codes, beginner tips and progression guides, checked after every game update.",
-    "tagline": "Codes, guides and tips, checked after every update.",
-    "legalNotice": "Fan-made resource. Not affiliated with the developer of EmberQuest."
+    "description": "EmberQuest guides for every skill and class: fishing, mining, chopping, crafting, money making and PvP tips for the browser and Steam cozy MMO.",
+    "tagline": "From fishing rod to world boss.",
+    "legalNotice": "Fan-made resource. Not affiliated with Faded Scroll Games LLC."
   },
   "nav": {
     "home": "Home",
@@ -14,8 +14,10 @@
     "close": "Close",
     "search": "Search",
     "language": "Language",
-    "codes": "Codes",
-    "guides": "Guides"
+    "guides": "Guides",
+    "classes": "Classes",
+    "skills": "Skills",
+    "crafting": "Crafting"
   },
   "search": {
     "placeholder": "Search the wiki...",
@@ -120,102 +122,179 @@
     "paginationAria": "Article pagination"
   },
   "overview": {
-    "codes": {
-      "overviewTitle": "All Codes",
-      "overviewDescription": "Every working EmberQuest code, cross-checked and dated. Updated after each game update."
+    "classes": {
+      "overviewTitle": "EmberQuest classes",
+      "overviewDescription": "Warrior, Archer, Assassin, Ranger — stat profiles and who each class is for."
+    },
+    "skills": {
+      "overviewTitle": "EmberQuest skills",
+      "overviewDescription": "All ten skills and what each one feeds."
+    },
+    "crafting": {
+      "overviewTitle": "EmberQuest crafting",
+      "overviewDescription": "Tiers 1-9, materials, enchanting and glyphs."
     },
     "guides": {
-      "overviewTitle": "All Guides",
-      "overviewDescription": "EmberQuest guides: first-session strategy and progression, dated and re-checked after updates."
+      "overviewTitle": "EmberQuest guides",
+      "overviewDescription": "Beginner, class choice and co-op — the practical guides."
     }
   },
   "home": {
     "meta": {
-      "title": "EmberQuest Wiki — Codes & Guides",
-      "description": "EmberQuest guides: working codes, beginner tips and progression guides, checked after every game update."
+      "title": "EmberQuest Wiki — classes, skills and crafting guides",
+      "description": "EmberQuest guides for every skill and class: fishing, mining, chopping, crafting, money making and PvP tips for the browser and Steam cozy MMO."
     },
     "updates": {
-      "title": "Recent updates"
+      "title": "Latest from the wiki"
     },
     "popular": {
       "badge": "Popular",
       "title": "Most read",
       "quickLinks": [
         {
-          "label": "Codes",
-          "href": "/codes"
+          "label": "Classes",
+          "href": "/classes"
         },
         {
-          "label": "Guides",
-          "href": "/guides"
+          "label": "Skills",
+          "href": "/skills"
+        },
+        {
+          "label": "Crafting",
+          "href": "/crafting"
         }
       ]
     },
     "closingCta": {
-      "title": "Start playing EmberQuest",
-      "description": "Bookmark this wiki and check back after every game update.",
+      "title": "Launches October 15 — this wiki launches with it",
+      "description": "EmberQuest is free to play on Steam and playable in the browser today. Our guides go live on day one and grow with the economy.",
       "primary": "Browse all",
-      "secondary": "Join the community"
+      "secondary": "Beginner guide"
     },
     "hero": {
-      "badge": "Fan-made wiki",
+      "badge": "Steam launch: October 15, 2026",
       "title": "EmberQuest Wiki",
-      "description": "Working codes and plain-language guides for EmberQuest, re-checked after every update.",
-      "ctaPrimary": "Play now",
-      "ctaSecondary": "Browse guides",
-      "videoId": ""
+      "description": "Cozy MMO, serious reference: class and skill guides, the crafting ladder, and the loops that actually make money.",
+      "ctaPrimary": "Play free in browser",
+      "ctaSecondary": "All 10 skills",
+      "videoId": "NJBcdTHKDsg"
     },
     "start": {
-      "badge": "Quick start",
-      "title": "Jump straight in",
+      "badge": "New here?",
+      "title": "Start in four pages",
       "cards": [
         {
           "number": "1",
-          "title": "Codes",
-          "description": "Every working code",
-          "icon": "lucide:gift",
-          "href": "/codes/all-codes"
+          "title": "Beginner guide",
+          "description": "Your first hour, step by step",
+          "icon": "lucide:book-open",
+          "href": "/guides/beginner-guide"
         },
         {
           "number": "2",
-          "title": "Beginner guide",
-          "description": "What to do first",
-          "icon": "lucide:book-open",
-          "href": "/guides/beginner-guide"
+          "title": "Which class?",
+          "description": "All four compared with real numbers",
+          "icon": "lucide:users",
+          "href": "/guides/which-class-to-pick"
+        },
+        {
+          "number": "3",
+          "title": "The 10 skills",
+          "description": "What each skill feeds",
+          "icon": "lucide:pickaxe",
+          "href": "/skills/skills-overview"
+        },
+        {
+          "number": "4",
+          "title": "Crafting",
+          "description": "Tiers 1-9 and enchantments",
+          "icon": "lucide:hammer",
+          "href": "/crafting/crafting-overview"
         }
       ]
     },
     "explore": {
-      "title": "Explore",
-      "description": "The essentials",
+      "title": "Explore the wiki",
+      "description": "Classes first, then the systems behind them.",
       "modules": [
         {
           "order": 1,
-          "name": "Active codes",
-          "description": "Placeholder — list the codes that work today",
-          "href": "/codes/all-codes",
-          "displayType": "badge-list",
+          "name": "Choose your class",
+          "description": "Four classes, four very different stat sheets",
+          "href": "/classes",
+          "displayType": "labeled-cards",
           "highlights": [
             {
-              "label": "EXAMPLECODE",
-              "detail": "Placeholder reward",
-              "badge": "NEW"
+              "label": "Warrior",
+              "detail": "The only real tank: armor, crowd control, 14.1 HP"
+            },
+            {
+              "label": "Assassin",
+              "detail": "Highest crit stats and the game’s only stealth access"
+            },
+            {
+              "label": "Archer",
+              "detail": "Fastest dash, most pierce, crafted out of paper"
+            },
+            {
+              "label": "Ranger",
+              "detail": "The balanced pick with the best dash economy"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Start here",
+          "description": "The essential pages, in order",
+          "href": "/guides",
+          "displayType": "steps",
+          "highlights": [
+            {
+              "label": "First hour",
+              "detail": "Tutorial, tools, and what to bank",
+              "badge": "8 min"
+            },
+            {
+              "label": "Class choice",
+              "detail": "The one decision that sticks",
+              "badge": "5 min"
+            },
+            {
+              "label": "Crafting basics",
+              "detail": "What tiers 1-3 actually cost",
+              "badge": "6 min"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "FAQ",
-      "description": "Common questions",
+      "title": "EmberQuest FAQ",
+      "description": "Straight answers about the cozy MMO everyone is about to try.",
       "items": [
         {
-          "question": "What are the working EmberQuest codes?",
-          "answer": "Template placeholder. Answer with the real codes and the date you last checked them, then link to the codes page."
+          "question": "Is EmberQuest free to play?",
+          "answer": "Yes. EmberQuest is free to play on Steam, and the browser version at emberquest.io is also free. It is a cozy lite MMO that monetizes without a box price."
         },
         {
-          "question": "Is EmberQuest free to play?",
-          "answer": "Template placeholder. Answer in one or two plain sentences."
+          "question": "When does EmberQuest come out on Steam?",
+          "answer": "October 15, 2026. The browser version is already live, so you can start playing and learning the systems before the Steam launch."
+        },
+        {
+          "question": "Can I play EmberQuest with friends?",
+          "answer": "Yes — parties, guilds, group PvP events and world bosses are all supported. There is no forced PvP: arenas and PvP zones are opt-in."
+        },
+        {
+          "question": "Which class is best in EmberQuest?",
+          "answer": "There is no single best class — the four differ in HP, armor and crit profiles. Warrior is the tank, Assassin the burst pick with the only stealth access, Archer pure ranged damage, Ranger the balanced shield. Compare them all in our class guide."
+        },
+        {
+          "question": "Can I change my class later?",
+          "answer": "No class-change system has been announced as of October 2026. Skill progress is shared and permanent, so a second character is the practical way to try another class."
+        },
+        {
+          "question": "Do I need the Steam version if I play in the browser?",
+          "answer": "They are the same game, and cross-play works in the sense that everyone is in one world. Whether account progress moves between the browser and Steam builds has not been confirmed yet."
         }
       ]
     }
