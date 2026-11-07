@@ -305,6 +305,17 @@
           "answer": "They are the same game, and cross-play works in the sense that everyone is in one world. Whether account progress moves between the browser and Steam builds has not been confirmed yet."
         }
       ]
+    },
+    "siteFaq": {
+      "title": "About this wiki",
+      "coverQ": "What's on this {game} wiki?",
+      "coverA": "{count} pages right now: {sections}.",
+      "updatedQ": "When was this wiki last updated?",
+      "updatedA": "The latest change is from {date}. Each page also shows its own date near the top.",
+      "officialQ": "Is this the official {game} site?",
+      "officialA": "No. It's a fan-made wiki, not run by the game's developer, {developer}.",
+      "codesQ": "Where are the {game} codes?",
+      "codesA": "They're on our codes page, \"{title}\". It's the only code list on this site."
     }
   },
   "footer": {
